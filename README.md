@@ -29,7 +29,7 @@ Note: in the final file we had to change the spaces for “_”, the “:” for
 
 **4.	Alignment and pairwise distances**  
 For each gene we carried out an alignment. Each gene’s hit sequences were aligned using MAFFT  (Katoh & Standley, 2013) with default parameters (mafft/7.402-with-extensions_intel-17.0.1) as it proved to be computationally efficient and accurate.   
-Example command: >> mafft --quiet --auto --thread $SLURM_NTASKS genes_dnak1_NCBI_tblastn.txt > genes_dnak1_NCBI_tblastn_aligned_MAFFT.fasta  
+Example command: <<mafft --quiet --auto --thread $SLURM_NTASKS genes_dnak1_NCBI_tblastn.txt > genes_dnak1_NCBI_tblastn_aligned_MAFFT.fasta>> 
 Additionally, we did translated alignments using MEGA X to check that the extracted sequences were working fine and matching. Alignments were reviewed manually for a quality check, in this process, the gyrB alignment was trimmed at the ends keeping the section the nucleotide positions 1281 and 3955.    
 Once we had the alignments, we built pairwise distance matrices to compare how different one organism is from another in a given gene. To calculate the distances between every pair of sequences we used the R  ‘Analyses of Phylogenetics and Evolution’ (APE) package with Kimura evolution model (k80). Distances were expressed as a number between 0 and 1; the greatest the distance, the more different the sequences and the closest to cero, the more similar the sequences. Finally, we evaluated the frequency distribution of the pairwise distances for each gene.    
 (R Script for the pairwise distances calculations and frequency graphs can be found here as “Pairwise_distance_matrices_ape.r”)  
