@@ -9,7 +9,7 @@ Evaluate the suitability of dna Kinase1 and gyrase subunit B genes as genetic ma
 
 Methods:
 
-1.	Download reference genomes from database: GTDB  
+1. Download reference genomes from database: GTDB  
 A search of reference genomes was performed through the recent Genome Taxonomy Database (GTDB). This database is an initiative of the Australian Research Council Laurate Fellowship to establish a standardized microbial taxonomy based on genome phylogeny (Parks et al., 2020). GTDB uses genomes published to Genbank and RefSeq to construct a revised phylogeny. To build our dataset of reference genomes, we selected accession numbers of genomes that belong to the Clostridia class according to the GTDB taxonomy, which  have a high completeness (>= 95%), low contamination (<1%) and have fewer than 10 SSU copies (often a sign of mis-assembly). Using the selected accession numbers, the corresponding genome sequences were subsequently downloaded from the National Center for Biotechnology Information (NCBI). A total of 4069 genomes were downloaded for the dataset on 28/10/2020.   
 (R Script for retrieval of accession numbers can be found here as “Reference_genomes_retrieval.R”, Download was done following ncbi-genome-download pipeline: https://github.com/kblin/ncbi-genome-download)
 
