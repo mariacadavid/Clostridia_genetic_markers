@@ -42,7 +42,9 @@ To understand how the variability of the genes behaves at different taxonomic le
 
 
 **6.	Phylogenic trees**  
-For the phylogenetic analysis we used Randomized Axelerated Maximum Likelihood (RAxML) version 8 (Stamatakis, 2014). We built a phylogenetic tree per gene with the aligned sequences using GRT+Gamma as substitution model and algorithms of rapid Bootstrap analysis and searched for best-scoring ML tree in one program run. Finally, we compared the phylogenetic trees obtained using the different genes and this way, reaffirm the genes’ suitability as genetic markers for the class Clostridia, the most variable gene is expected to be a better marker for these closely related taxa.   
+For the phylogenetic analysis we used Randomized Axelerated Maximum Likelihood (RAxML) version 8 (Stamatakis, 2014). We built a phylogenetic tree per gene with the aligned sequences using GRT+Gamma as substitution model and algorithms of rapid Bootstrap analysis and searched for best-scoring ML tree in one program run.  
+Example command: >>./raxml -s rename_duplicates_genes_dnak1_GTDB_tblastn_aligned_MAFFT.fasta -n raxml_gtdb_dnak1.out -m GTRGAMMA -x 342 -f a -N autoMRE  -p 456 -T 2  
+Finally, we compared the phylogenetic trees obtained using the different genes and this way, reaffirm the genes’ suitability as genetic markers for the class Clostridia, the most variable gene is expected to be a better marker for these closely related taxa.   
 
 
 **References**  
