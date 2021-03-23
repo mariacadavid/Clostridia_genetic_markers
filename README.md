@@ -1,4 +1,4 @@
-## Evaluation of genetic markers for class Clostridia 
+## Evaluation of genetic markers for the class Clostridia 
 
 **Goals:**
 Evaluate the suitability of dna Kinase1 and gyrase subunit B genes as genetic markers for the study of community diversity of the class Clostridia.
