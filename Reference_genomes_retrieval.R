@@ -19,7 +19,7 @@ gtdb_df = bind_rows(gtdb_bac2, gtdb_arc2) %>%
 head(gtdb_df)
 
 #Select genomes- filter with desired conditions:
-#Belong to the class Ruminococcaceae
+#Belong to the class Clostridia
 #Have high completeness (>= 95% completeness)
 #Have low contamination (< 1%)
 #Have fewer than 10 ssu copies (often a sign of misassembly)
