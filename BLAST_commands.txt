@@ -2,9 +2,11 @@
 #By Maria Cadavid (nov-2020) 
 #commands used for the BLAST procedure with the goal of searching within each genome of reference the genes of interest: dna Kinase1 (dnaK1) and gyrase subunit B (gyrB) and the widely used universal marker gene 16s rRNA
 
-#Create BLAST data base with my reference genomes
+#Create BLAST database with my downloaded reference genomes
 >> cat *.fna >> gtdb_all_genomes.fna
 >> makeblastdb -in gtdb_all_genomes.fna  -dbtype nucl
+
+#Identification of genes of interest in the assemblies’ sequences through similarity with a query sequence
 
 # For output with values of interest for dnak1: 
 >> tblastn -query "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Query_sequence/gyrb_ref1_uniprot.fasta" -out "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/blastout_gyrb_tblastn_ref1uniprot_GTDBgenomes_tsv_frame.txt"  -db "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/GTDB_reference_genomes/gtdb_all_genomes.fna"  -evalue 0.1 -outfmt "6 stitle evalue sstart send sframe" -max_target_seqs 5000
