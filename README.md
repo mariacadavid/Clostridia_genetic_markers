@@ -10,7 +10,6 @@ Evaluate the suitability of dna Kinase1 and gyrase subunit B genes as genetic ma
 
 
 **Methods**  
- 
 ![image](https://user-images.githubusercontent.com/37601806/117590497-5a190f80-b0f5-11eb-83e1-cbf0e4e8277b.png)  
 Figure 1. General methods workflow: steps (white boxes) and detail of written scripts and used programs for each purpose (gray boxes).  
 
