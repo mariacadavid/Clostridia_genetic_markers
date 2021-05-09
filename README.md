@@ -1,5 +1,5 @@
 ## Evaluation of genetic markers for the class Clostridia
-Reposiory for project: Comparison of the variation of gut bacterial diversity marker genes in public genomes: a study case of the class Clostridia.
+Repository for project: Comparison of the variation of gut bacterial diversity marker genes in public genomes: a study case of the class Clostridia.
 Maria Cadavid-Velez, 2021
 
 **Goals**  
