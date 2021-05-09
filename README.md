@@ -41,7 +41,7 @@ To understand in more detail how does the genetic variation correlate between ma
 
 Next, we visualized how the variability of the genes behaved at different taxonomic levels, by highlighting data belonging to the same order, family, genus and species throughout the linear regression. To do this, it was necessary to associate each gene sequence to the respective taxonomic classification of the assembly of origin. To assign the corresponding taxonomies, a match was made between the nucleotide ID of the single sequence fragment where the gene was found with its corresponding assembly ID, which has an associated GTDB taxonomic classification. We calculated standard deviations of data at all taxonomic levels to better understand the dispersion of identities of both marker genes (dnaK1 and gyrB) compared to that of the 16S rRNA gene.
 
-Finally, we also highlighted the comparisons and calculated standard deviations for data belonging to two important families that were relevant in the characterization of the Colombian microbial gut population: Ruminococcaceae and Lachnospiraceae.  
+Finally, we also highlighted the comparisons and calculated standard deviations for data belonging to two important families that were relevant in the characterization of the Colombian microbial gut population: Ruminococcaceae and Lachnospiraceae. (Python Scripts to assign taxonomy level data can be found here as "Add_taxonomy_level_bool_to_contrast.py" and "Nucleotide_Assembly_IDs_full.py").  
 
 
 **References**  
