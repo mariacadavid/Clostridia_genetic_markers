@@ -1,13 +1,14 @@
 ## Evaluation of genetic markers for the class Clostridia
 Maria Cadavid-Velez 2021
 
-**Goals:**
+**Goals**  
 Evaluate the suitability of dna Kinase1 and gyrase subunit B genes as genetic markers for the study of community diversity of the class Clostridia.
 -	Extract dnaK1 and gyrB gene sequences by identity with a reference from genomes available in public databases for microorganisms of the class Clostridia.
 -	Estimate the genetic variability of dnaK1 and gyrB genes in the Clostridia class compared to the universal marker 16s rRNA.
 
 
-**Methods:**  
+**Methods**  
+ 
 ![image](https://user-images.githubusercontent.com/37601806/117590497-5a190f80-b0f5-11eb-83e1-cbf0e4e8277b.png)  
 Figure 1. General methods workflow: steps (white boxes) and detail of written scripts and used programs for each purpose (gray boxes).  
 
