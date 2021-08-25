@@ -9,7 +9,7 @@
 #Identification of genes of interest in the assemblies’ sequences through similarity with a query sequence
 
 # For output with values of interest for dnak1: 
->> tblastn -query "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Query_sequence/gyrb_ref1_uniprot.fasta" -out "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/blastout_gyrb_tblastn_ref1uniprot_GTDBgenomes_tsv_frame.txt"  -db "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/GTDB_reference_genomes/gtdb_all_genomes.fna"  -evalue 0.1 -outfmt "6 stitle evalue sstart send sframe" -max_target_seqs 5000
+>> tblastn -query "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Query_sequence/dnak1_ref1_uniprot.fasta" -out "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/blastout_dnak1_tblastn_ref1uniprot_GTDBgenomes_tsv_frame.txt"  -db "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/GTDB_reference_genomes/gtdb_all_genomes.fna"  -evalue 0.1 -outfmt "6 stitle evalue sstart send sframe" -max_target_seqs 5000
 
 # For output with values of interest for gyrb: 
 >> tblastn -query "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Query_sequence/gyrb_ref1_uniprot.fasta" -out "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/blastout_gyrb_tblastn_ref1uniprot_GTDBgenomes_tsv_frame.txt"  -db "/Users/mariacadavid/Desktop/Tesis_Clostridiales/Data/Reference_genomes_ncbi/DNA_clostridia_GTDB/GTDB_reference_genomes/gtdb_all_genomes.fna"  -evalue 0.1 -outfmt "6 stitle evalue sstart send sframe" -max_target_seqs 5000
